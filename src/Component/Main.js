@@ -11,7 +11,10 @@ export default function Main() {
           <About />
           <Link />
         </div>
-        <div className="col-sm-8">{/* title */}</div>
+        <div className="col-sm-8">
+          <Title tanggal="Dec 7, 2017" />
+          <Title tanggal="Sept 2, 2017" />
+        </div>
       </div>
     </div>
   );
